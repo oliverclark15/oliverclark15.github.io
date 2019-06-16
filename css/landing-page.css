@@ -23,13 +23,13 @@ header.masthead {
   background-color: #343a40;
   background: url("../img/bg-masthead.jpg") no-repeat center center;
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
 }
 
 header.masthead .overlay {
   position: absolute;
-  background-color: #212529;
+  background-color: darkgreen;
   height: 100%;
   width: 100%;
   top: 0;
@@ -43,8 +43,8 @@ header.masthead h1 {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
   header.masthead h1 {
     font-size: 3rem;
@@ -52,17 +52,19 @@ header.masthead h1 {
 }
 
 .showcase .showcase-text {
-  padding: 3rem;
+  padding: 5rem;
+  background: url("../img/bg-masthead.jpg") no-repeat center center;
 }
 
 .showcase .showcase-img {
-  min-height: 30rem;
-  background-size: cover;
+  min-height: 0rem;   
+  background-size: 100% auto;
+  background-repeat: no-repeat;    
 }
 
 @media (min-width: 768px) {
-  .showcase .showcase-text {
-    padding: 7rem;
+  .showcase .showcase-text{
+    padding: 12rem;
   }
 }
 
@@ -74,17 +76,34 @@ header.masthead h1 {
 .features-icons .features-icons-item {
   max-width: 20rem;
 }
-
 .features-icons .features-icons-item .features-icons-icon {
-  height: 7rem;
+  height: 10rem;
 }
 
 .features-icons .features-icons-item .features-icons-icon i {
-  font-size: 4.5rem;
+  font-size: 5rem;
+  color: green;
 }
 
 .features-icons .features-icons-item:hover .features-icons-icon i {
-  font-size: 5rem;
+    font-size: 6rem;
+    color: darkgreen;
+}
+
+.features-icons .features-icons-item .features-icons-icon i .stupid{
+    display:none;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i .stupid{
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-family: 'Lato';
+    color: darkgreen;
+    display:block;
+}
+
+.features-icons-item a {
+    text-decoration: none;
 }
 
 .testimonials {
@@ -97,7 +116,7 @@ header.masthead h1 {
 }
 
 .testimonials .testimonial-item img {
-  max-width: 12rem;
+  max-width: 18rem;
   -webkit-box-shadow: 0px 5px 5px 0px #adb5bd;
   box-shadow: 0px 5px 5px 0px #adb5bd;
 }
@@ -113,7 +132,7 @@ header.masthead h1 {
 
 .call-to-action .overlay {
   position: absolute;
-  background-color: #212529;
+  background-color: darkgreen;
   height: 100%;
   width: 100%;
   top: 0;
@@ -122,6 +141,13 @@ header.masthead h1 {
 }
 
 footer.footer {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
+.fas{
+    color:black;
+}
+.fab{
+    color:black;
+}
+
