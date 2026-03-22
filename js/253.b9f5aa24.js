@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkweb_ollie"]=self["webpackChunkweb_ollie"]||[]).push([[253],{2253:function(e,n,o){o.r(n),o.d(n,{default:function(){return i}});var r=o(6252);const t={class:"home"};function c(e,n,o,c,s,u){return(0,r.wg)(),(0,r.iD)("div",t)}var s={name:"Home",components:{}},u=o(3744);const a=(0,u.Z)(s,[["render",c]]);var i=a}}]);
+//# sourceMappingURL=253.b9f5aa24.js.map
